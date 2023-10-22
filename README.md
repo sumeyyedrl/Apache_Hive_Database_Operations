@@ -33,3 +33,16 @@ sql describe database test1;
 #Drop an existing database
 sql drop database test1;
 ```
+
+```
+# Create a new table
+sql create table if not exists mytable(id int, name string);
+
+# Describe an existing table
+sql describe mytable;
+# Detailed informations about existing table
+sql describe formatted mytable;
+
+#Drop an existing database
+sql drop table mytable;
+```
