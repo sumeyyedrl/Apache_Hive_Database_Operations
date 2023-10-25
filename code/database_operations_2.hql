@@ -1,4 +1,4 @@
--- ! hotels table created by the data called Hotel_Reviews.csv.gz
+-- ! hotels table created by the data called Hotel_Reviews.csv.gz (https://github.com/erkansirin78/datasets/raw/master/Hotel_Reviews.csv.gz)
 
 -- Change the format of the data's file
 create table hotels_orc stored as orc as select * from test1.hotels;
