@@ -9,7 +9,6 @@ sql describe database test1;
 -- Drop an existing database
 sql drop database test1;
 
-
 -- Create a new table
 sql create table if not exists mytable(id int, name string);
 
