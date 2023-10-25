@@ -7,7 +7,8 @@ First thing first Hadoop and Hive services need to be started. In order to conne
 ```
 #Starting Hadoop service
 start-all.sh
-
+```
+```
 #Connecting Beeline
 beeline -u jdbc:hive2://localhost:10000
 ```
