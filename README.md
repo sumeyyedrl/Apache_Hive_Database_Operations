@@ -22,5 +22,7 @@ pgrep -f org.apache.hadoop.hive.metastore.HiveMetaStore
 ### Additional Configurations to Change the File Formats
 ```
 SET hive.exec.compress.output=true;
+```
+```
 SET io.textfile.compression.type=SNAPPY;
 ```
